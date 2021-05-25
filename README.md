@@ -1,19 +1,9 @@
-# Technigo React Starter App
+# portfolio
 
-This app has been generated using `create-react-app`, then cleaned up a little so we have a project with just the elements we need to get started.
+The portfolio assignment was initialised during week 8 of the Technigo Boot Camp, but will remain an ongoing project where we keep adding new information and content throughout the entire course and onwards.
 
-Add components in the `src` folder and use them in `src/app.js` to get started.
+We were given a set design for mobile and desktop view that we were to implement if taking part in the Techingo Career Coaching Program, which I am. Images and the actual text content naturally had to be our own, and we were also allowed to change and personalise the color scheme if preferred. I took the opportunity to do so, for the visual impression to correlate better with my content and reflect back on my artistic preference of color use for this project. The site had to be fully responsive in various views (mobile, tablet, desktop) - and look and function the same in Chrome, Firefox and Edge. For layout purposes I have been using a combination of Flexbox and Grid.
 
-## Usage
+A crucial part of the assignment was to carry out an accessibility test according to a checklist, making sure the webpage works well for people with disabilities. As an extension to this the HTML code had to validate in a validation tool, and I have also checked so that all colors and color contrast are acceptable and approved. I´ve run my code through the WAVE and Tenon auditing tools and applied suggested changes. When I have more time I will focus on fine tuning and adding additional ARIA attributes, to improve the accessibility of the page for people using a screen reader and keyboard navigation.
 
-1. On GitHub, click the 'use this template' button to create a new repo on your account
-1. Clone the new repo to your computer
-1. Install required dependencies with npm: `npm install`
-1. Start the project: `npm start`
-
-Alternatively, if you don't want a new git repo on your account;
-
-1. Download & extract the [latest release](https://github.com/Technigo/react-starter/releases/latest) from GitHub
-1. Open the directory in the terminal: `cd /path/to/react-starter`
-1. Install required dependencies with npm: `npm install`
-1. Start the project: `npm start`
+Please follow this link to view project live: TBC

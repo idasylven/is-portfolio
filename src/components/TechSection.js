@@ -4,7 +4,7 @@ import './TechSection.css'
 
 export const TechSection = () => {
   return (
-    <section className="tech-container" tabIndex="0">
+    <section className="tech-container">
       <h4 className="tech-heading">TECH</h4>
       <h5 className="tech-experience">
         HTML, CSS, JavaScript, React, React Native, Redux, Node.js, ES6, Flexbox, Grid, Styled Components, 
