@@ -1,7 +1,18 @@
-.header-img {
-  width: 100%;
+.header-hero {
+  position: relative;
   height: 32rem;
-  object-fit: cover;
+  background-image: url("/assets/images/pexels-clintdyguaso-3823271medium.jpg");
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+}
+
+.header-container {
+  position: relative;
+  height: 32rem;
+  width: 860px;
 }
 
 .social-media-container {
@@ -44,7 +55,8 @@
   letter-spacing: 0.04em;
   color: #ffffff;
   margin-top: 20px;
-  background-color: rgba(255, 255, 255, 0.185);
+  /* background-color: rgba(255, 255, 255, 0.185); */
+  background-color: rgb(86 126 128 / 57%);
   width: 170px;
   text-align: center;
 }
@@ -88,20 +100,8 @@
 }
 
 @media (min-width: 1024px) {
-  .profile-pic-container {
-    width: 85%;
-  }
-
-  .social-media-container {
-    width: 81%;
-  }
-
   .github-icon {
     margin-left: 20px;
-  }
-
-  .portfolio-headings-container {
-    left: 12%;
   }
 
   .profession-title {
@@ -118,5 +118,39 @@
     font-size: 18px;
     line-height: 28px;
     width: 236px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .profile-pic {
+    width: 185px;
+    height: 185px;
+  }
+
+  .linkedin-icon {
+    width: 50px;
+    height: 50px;
+  }
+
+  .github-icon {
+    width: 50px;
+    height: 50px;
+    margin-left: 25px;
+  }
+
+  .portfolio-owner {
+    font-size: 23px;
+    line-height: 33px;
+    width: 282px;
+  }
+
+  .profession-title {
+    font-size: 50px;
+    line-height: 64px;
+    width: 300px;
+  }
+
+  .profession {
+    font-size: 40px;
   }
 }

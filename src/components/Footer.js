@@ -4,7 +4,7 @@ import './Footer.css'
 
 export const Footer = () => {
   return (
-    <footer className="footer-container" tabIndex="0">
+    <footer className="footer-container">
       <h5 className="footer-heading">CONTACT</h5>
       <div className="contact-info-container">
         <p className="contact-details">Ida Sylvén</p>

@@ -4,7 +4,7 @@ import './AboutSummary.css'
 
 export const AboutSummary = () => {
   return (
-    <section className="summary-container" tabIndex="0">
+    <section className="summary-container">
       <h3 className="summary-text">
         <img className="start-figure" src="./assets/icons/start-figure.png" alt="start-figure" />
         I am a dedicated front end developer with a creative and logical mindset,

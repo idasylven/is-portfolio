@@ -41,6 +41,10 @@
   .more-thoughts-links {
     width: 686px;
   }
+
+  .article-hidden-desktop {
+    display: none;
+  }
 }
 
 @media (min-width: 1024px) {

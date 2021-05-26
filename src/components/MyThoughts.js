@@ -4,7 +4,7 @@ import './MyThoughts.css'
 
 export const MyThoughts = () => {
   return (
-    <section className="my-thoughts-container" tabIndex="0">
+    <section className="my-thoughts-container">
       <h4 className="my-thoughts-heading">MY THOUGHTS</h4>
       <h4 className="my-thoughts-heading-desktop">MY THOUGHTS ABOUT CODE</h4>
       <section className="article-container">
@@ -19,7 +19,7 @@ export const MyThoughts = () => {
             </p>
           </a>
         </article>
-        <article className="article-card-desktop" tabIndex="0">
+        <article className="article-card-desktop">
           <a href="https://medium.com/p/776c5101e37a/edit" target="_blank" rel="noopener noreferrer" aria-label="Link will open in new tab">
             <img className="article-img" src="./assets/images/peter-f-XURJBJi_wDE-unsplash (1).jpg" alt="Colorful pastel crayon set" />
             <h6 className="article-date">MAY 2021</h6>

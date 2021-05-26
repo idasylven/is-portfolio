@@ -33,7 +33,7 @@ export const FeaturedProjects = () => {
             <p className="tag">API</p>
           </div>
         </article>
-        <article className="project-card">
+        <article className="project-card project-hidden-mob">
           <a href="https://github.com/idasylven/project-todos" target="_blank" rel="noopener noreferrer" aria-label="Link will open in new tab">
             <img className="project-img" src="./assets/images/thumbnail-todos.png" alt="The To-Do app project and link to GitHub" />
             <h6 className="project-img-text">THE TO-DO APP</h6>
@@ -47,7 +47,7 @@ export const FeaturedProjects = () => {
             <p className="tag">Styled Components</p>
           </div>
         </article>
-        <article className="project-card">
+        <article className="project-card project-hidden-mob">
           <a href="https://github.com/idasylven/project-guess-who" target="_blank" rel="noopener noreferrer" aria-label="Link will open in new tab">
             <img className="project-img" src="./assets/images/thumbnail-guesswho.png" alt="The Guess Who game project and link to GitHub" />
             <h6 className="project-img-text">THE GUESS WHO GAME</h6>
@@ -60,35 +60,31 @@ export const FeaturedProjects = () => {
             <p className="tag">JavaScript ES6</p>
           </div>
         </article>
-        <section className="featured-project-desktop">
-          <article className="project-card">
-            <a href="https://github.com/idasylven/project-chatbot/tree/main/project-chatbot" target="_blank" rel="noopener noreferrer" aria-label="Link will open in new tab">
-              <img className="project-img" src="./assets/images/thumbnail-winebot.png" alt="The Wine Bot project and link to GitHub" />
-              <h6 className="project-img-text">THE WINE BOT</h6>
-              <h6 className="project-card-heading">A CHAT BOT BUILT IN JAVASCRIPT</h6>
-              <p className="project-info">A pair-programmed bias wine bot using <br />HTML, CSS and JavaScript</p>
-            </a>
-            <div className="tags-container">
-              <p className="tag">HTML5</p>
-              <p className="tag">CSS3</p>
-              <p className="tag">JavaScript ES6</p>
-            </div>
-          </article>
-        </section>
-        <section className="featured-project-desktop">
-          <article className="project-card">
-            <a href="https://github.com/idasylven/project-news-site" target="_blank" rel="noopener noreferrer" aria-label="Link will open in new tab">
-              <img className="project-img" src="./assets/images/thumbnail-newssite.jpg" alt="The News site project and link to GitHub" />
-              <h6 className="project-img-text">THE NEWS SITE</h6>
-              <h6 className="project-card-heading">A NEWS SITE BUILT IN HTML</h6>
-              <p className="project-info">A digital fashion magazine using HTML<br />and CSS</p>
-            </a>
-            <div className="tags-container">
-              <p className="tag">HTML5</p>
-              <p className="tag">CSS3</p>
-            </div>
-          </article>
-        </section>
+        <article className="project-card project-hidden">
+          <a href="https://github.com/idasylven/project-chatbot/tree/main/project-chatbot" target="_blank" rel="noopener noreferrer" aria-label="Link will open in new tab">
+            <img className="project-img" src="./assets/images/thumbnail-winebot.png" alt="The Wine Bot project and link to GitHub" />
+            <h6 className="project-img-text">THE WINE BOT</h6>
+            <h6 className="project-card-heading">A CHAT BOT BUILT IN JAVASCRIPT</h6>
+            <p className="project-info">A pair-programmed bias wine bot using <br />HTML, CSS and JavaScript</p>
+          </a>
+          <div className="tags-container">
+            <p className="tag">HTML5</p>
+            <p className="tag">CSS3</p>
+            <p className="tag">JavaScript ES6</p>
+          </div>
+        </article>
+        <article className="project-card project-hidden">
+          <a href="https://github.com/idasylven/project-news-site" target="_blank" rel="noopener noreferrer" aria-label="Link will open in new tab">
+            <img className="project-img" src="./assets/images/thumbnail-newssite.jpg" alt="The News site project and link to GitHub" />
+            <h6 className="project-img-text">THE NEWS SITE</h6>
+            <h6 className="project-card-heading">A NEWS SITE BUILT IN HTML</h6>
+            <p className="project-info">A digital fashion magazine using HTML<br />and CSS</p>
+          </a>
+          <div className="tags-container">
+            <p className="tag">HTML5</p>
+            <p className="tag">CSS3</p>
+          </div>
+        </article>
       </section>
     </section>
   )

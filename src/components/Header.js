@@ -4,8 +4,7 @@ import './Header.css'
 
 export const Header = () => {
   return (
-    <header>
-      <img className="header-img" src="./assets/images/pexels-clintdyguaso-3823271medium.jpg" alt="Turqouise background with golden sparks" />
+    <header className="header-hero">
       <div className="header-container">
         <div className="social-media-container">
           <a href="https://www.linkedin.com/in/ida-sylv%C3%A9n-aa8198203/" target="_blank" rel="noopener noreferrer" aria-label="Link will open in new tab">
@@ -27,4 +26,4 @@ export const Header = () => {
   )
 }
 
-// Foto av ClintDyGuaso från Pexels
+// <img className="header-img" src="./assets/images/pexels-clintdyguaso-3823271medium.jpg" alt="Turqouise background with golden sparks" />
