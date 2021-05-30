@@ -10,4 +10,4 @@ Credits:
 Hero image by ClintDyGuaso/Pexels.com
 My Thoughts About Code article images by Goran Ivos/Unsplash.com and Peter F/Unsplash.com
 
-Please follow this link to view project live: TBC
+Please follow this link to view project live: https://idasylven-portfolio.netlify.app/
