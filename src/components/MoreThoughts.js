@@ -13,7 +13,7 @@ export const MoreThoughts = () => {
       </article>
       <article className="more-articles">
         <a href="https://medium.com/p/bd3285d6c005/edit" target="_blank" rel="noopener noreferrer" aria-label="Link will open in new tab">
-          <p className="more-thoughts-links">COMING UP JUNE 2021. <span className="link-texts">My Ambitions: Pinpoints for the future </span><span className="forward-symbol">>></span></p>
+          <p className="more-thoughts-links">JUNE 2021. <span className="link-texts">My Ambitions: Pinpoints for the future </span><span className="forward-symbol">>></span></p>
         </a>
       </article>
     </section>
