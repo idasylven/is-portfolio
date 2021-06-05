@@ -1,7 +1,7 @@
 .header-hero {
   position: relative;
   height: 32rem;
-  background-image: url("/assets/images/New-Project.jpg");
+  background-image: url("/assets/images/New-Project-smaller.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -55,8 +55,7 @@
   letter-spacing: 0.04em;
   color: #ffffff;
   margin-top: 20px;
-  /* background-color: rgba(255, 255, 255, 0.185); */
-  background-color: rgb(86 126 128 / 57%);
+  background-color: rgba(255, 255, 255, 0.185);
   width: 170px;
   text-align: center;
 }
@@ -73,9 +72,9 @@
   letter-spacing: 0.04em;
   color: #ffffff;
   margin-top: 0;
-  /* background-color: rgba(255, 255, 255, 0.185); */
-  /* background-color: rgb(140 201 204 / 57%); */
-  background-color: rgb(86 126 128 / 57%);
+  background-color: rgba(255, 255, 255, 0.185);
+  /* background-color: rgb(140 201 204 / 57%);
+  background-color: rgb(86 126 128 / 57%); */
   padding-left: 10px;
   width: 255px;
 }
